@@ -2,12 +2,16 @@ body {
     background: #202020;
 }
 
-
+#center{
+    width: 100%;
+    height: 80vh;
+    display:inline-flex;
+    justify-content:center;
+    align-items: center;
+}
 canvas {
     display: block;
 }
-
-
 #canvasBg {
     background: #ffffff;
 }
@@ -15,4 +19,16 @@ canvas {
 
 #overlapping canvas {
     margin: -600px 0 0;
+}
+#instruct{
+    width: 250px;
+    height: auto;
+    background-color:yellow;
+    color: red;
+    padding-bottom: 10px;
+}
+#instruct h2{
+    padding-top: 5px;
+    color: black;
+    text-align: center;
 }
